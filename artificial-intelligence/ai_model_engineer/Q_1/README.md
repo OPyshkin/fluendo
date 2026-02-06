@@ -26,10 +26,10 @@ In this test, we will analyze real problems and dilemas related with this produc
 
 Please provide a document (and extra data if any) answering each question below; please note that no practical exercises are required here (just theoretical analysis) but feel free to add any.
 
-1. How can we apply enhanced capabilities with reduced computational cost for: applying reidentification (just anonymize specific individuals) and applying a depth-based location (to anonymize objects just on the background). 
-2. Imagine we have this case: our face detection system does not detect properly (bad accuracy) dark-skins nor bald-people; how would you improve system accuracy? 
-3. Imagine this other case: let's assume we have added several bald people imagery and we still are not increasing the accuracy. What may be happening? How would you fix this? 
-4. Which MLOPs infrastructure would you design to manage this system? Just provide a high-level design and which tools would you use.
-5. From end user POV, which techniques would you use to improve final solution user experience? 
-6. Do you know any AI models that may be useful for these cases: face detection, re identification and depth estimation? 
+1. How can we improve face detection by adding **reidentification** to anonymize only specific individuals while keeping computational cost low?
+2. How can we extend an anonymization pipeline with depth-based filtering to blur only background objects efficiently?
+3. Imagine we have this case: our face detection system does not detect properly (bad accuracy) dark-skins nor bald-people; how would you improve system accuracy? 
+4. Imagine this other case: let's assume we have added several bald people imagery to our dataset and we still are not increasing the accuracy. What may be happening? How would you fix this? 
+5. Which MLOPs infrastructure would you design to manage this system? Just provide a high-level design and which tools would you use.
+6. From end user POV, which techniques would you use to improve final solution user experience? 
 7. (EXTRA) Provide a code snippet (practical example) on how would you implement any of these applications: reidentification or depth estimation, for face anonymization.
