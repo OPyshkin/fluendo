@@ -3,3 +3,4 @@ lib/
 *.engine
 .vscode/
 implementation_documentation/
+*.onnx
