@@ -105,7 +105,7 @@ Operator-facing tooling:
 
 Here I decided to demonstrate an approach I would have used for reidentification task showcasing my technical stack and system design patterns.
 
-This sample application is written in C++20 on ubuntu 24.04 using TensorRT framework for model optimization and inference, some additional pre-processing functions are written in CUDA C to showcase an example of preprocessing data pipeline on GPU. 
+This sample application is written in C++20 on ubuntu 24.04 using TensorRT framework for model optimization and inference, some additional pre-processing functions are written in CUDA C to show an example of preprocessing data pipeline on GPU. 
 
 It takes an input sample image and performs 50 iterations with [YOLOv8n-face](https://github.com/lindevs/yolov8-face/tree/master) for face detection and [archface](https://huggingface.co/garavv/arcface-onnx) for embedding extraction, both quantized to FP16 weight type to reduce the computations, embedding matching is performed on CPU using cosine similarity searching for correspondences in a JSON dictionary. 
 
